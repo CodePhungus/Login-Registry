@@ -7,7 +7,6 @@ int main(void)
     while (fgets(str, sizeof(str), file))
     {
         printf("%s", str);
-        file++;
     }
     return 0;
 }
